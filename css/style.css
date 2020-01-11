@@ -1,13 +1,9 @@
-.content {
-width: 960px;
-margin: auto;
-
-}
 
 header,
 main,
 footer {
     max-width: 760px;
+    margin: auto;
 }
 
 h1 {
@@ -16,7 +12,7 @@ h1 {
 
 header,
 footer {
-    background-color: #00FF7F;
+    background-color:#006400;
     font-family: 'Pacifico', cursive;
     color: #F1FAEE;
     text-align: center;
@@ -52,11 +48,11 @@ img {
 }
 
 .line1 a {
-    color: lightskyblue;
+    color: #BFEFFF;
 }
 
 .line2 {
     font-size: 13px;
-    color: rgba(250, 225, 3, 0.925);
+    color: #FFFACD;
     font-family: 'Roboto Slab', serif;
 }
