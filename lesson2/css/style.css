@@ -43,7 +43,7 @@ span{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width:410px){
+@media screen and (max-width:500px){
     main{
         grid-template-columns: 1fr;
     }
