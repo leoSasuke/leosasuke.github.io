@@ -12,9 +12,11 @@ main{
     background-color:#E8E8E8;
 }
 .title{
- background-color:#191970;
- text-align: justify;
- margin-top: 0;
+    color: #536878;
+    background-color: ;
+	margin-block-start: 0em;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 header,footer{
     background-color: #191970;
