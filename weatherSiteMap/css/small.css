@@ -1,0 +1,90 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    
+    background-color: #A4D3EE;
+}
+p{font-family: 'Poppins', sans-serif;font-size: .9rem;}
+.paratex{font-family:'Poppins', sans-serif;font-size: .9rem;}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color:#4682B4;
+    font-family: 'Kalam', cursive;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header img {float:left; margin: 10px; width: 50px;}
+header h1 {margin: 0; font-size: 1.3rem;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem}
+.exh1header{ font-family: 'Kalam', cursive;font-size: 1.3rem;}
+.exh2header{font-family: 'Kalam', cursive;font-size: 1rem;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color:#7EC0EE;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+
+
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+.prinav{font-family: 'Concert One', cursive;font-size: .9rem;}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    text-align: center;
+    background-color: white;
+}
+main h1{font-family: 'Passion One', cursive;font-size: 2rem;}
+main h2{font-family: 'IBM Plex Serif', serif;font-size: 1.3rem;}
+main h3{font-family: Arial, Helvetica, sans-serif;color:#8B8682;font-size: 1rem;}
+.heading1{font-family: 'Passion One', cursive;font-size: 2rem;}
+.heading2{font-family: 'IBM Plex Serif', serif;font-size: 1.3rem;}
+.heading3{font-family: Arial, Helvetica, sans-serif;font-size: 1rem;}
+main figure img{width: 100%;}
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #4682B4;
+    padding: .5rem 2%;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
