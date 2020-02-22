@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/update.js"></script>
+    
     <script src="js/toggle.js"></script>
     <link rel="shortcut icon" href="favicon.ico">
     <title>Preston Town</title>
@@ -36,23 +37,62 @@
     </nav>
     </div>
     <main class="clearfix">
-     <h2>Gallery</h2>
-     <div class="herodiv">
-        <div class="hero-ph"><img src="images/laketown.jpg"></div>
-        <section class="weathersummary">
-         <h3>Weather Summary</h3>
-         <p>label: value</p>
-         <p>label: value</p>
-         <p>label: value</p>
-     </section>
-    </div>
-     <div class="article">Article and related image will go here soon</div>
-     <div class="contact">Contact us with an address and map will and up here</div>
+      <h1>Weather Gallery</h1>
+      <div id="picture">
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol1.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol2.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol3.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/Neve.jpg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/neve2.jpeg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/neve3.jpg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/nublado1.jpg">
+          <div class="subtitle">Cloudy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/nublado2.jpg">
+          <div class="subtitle">Cloudy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/relampago1.jpg">
+          <div class="subtitle">Flashing Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/relampago2.jpg">
+          <div class="subtitle">Flashing Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/ventando.jpg">
+          <div class="subtitle">Windy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/ventando_2.jpg">
+          <div class="subtitle">Windy Weather</div>
+        </figure>
+      </div>
     </main>
-    <div id="footerWrapper">
     <footer class="clearfix">
         <p>&copy; 2020 &bull; Leonardo Cavachini &bull; <span id="currentDate"></span></p>
     </footer>
-</div>
+
+<script src="js/lazy.js"></script>
 </body>
 </html>

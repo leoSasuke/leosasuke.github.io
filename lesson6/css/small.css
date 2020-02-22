@@ -100,10 +100,40 @@ h2{text-align: center;}
 .myphoto img{
     width: 100%;
 }
+
+figure{
+    float: left;
+    margin: auto;
+}
+.pic{
+
+   width: 290px;
+   height: 210px;
+   box-shadow: 1px 0px 6px black;
+   opacity:70%;
+   margin-right: 10px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+}
+.pic:hover{
+    opacity: 100%;
+    size: 100%;
+}
+figure figcaption{
+    flex-direction: column;
+}
+figure .subtitle{
+    text-align: center;
+    width: 290px;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+    
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
 }
+
 div#footerWrapper{background-color:#7EC0EE;}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
