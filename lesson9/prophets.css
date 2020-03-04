@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:#696969;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+h2{
+    font-family:  'Permanent Marker', cursive;
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+.cards{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    margin: 0 15px;
+}
+
+.cards section{
+    margin: 0 auto;
+    background-color: #CDB79E;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 5px 8px rgba(220, 220, 220, .3),
+                -2px 0 8px rgba(220, 220, 220, .3);
+    transition: .3s;
+}
+
+.cards section h2{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.cards section img{
+    width: 60%;
+}
+
+footer{
+    margin: 1rem;
+    text-align: center;
+    font-size: .9rem;
+}
+
+@media(min-width: 35em){
+    .cards{
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media(min-width: 62em){
+    .cards{
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        max-width: 60em;
+        margin: auto;
+    }
+
+    .cards section:hover{
+        box-shadow: 2px 5px 8px rgba(220, 220, 220, .7),
+                    -2px 0 8px rgba(220, 220, 220, .7);
+    }
+}
