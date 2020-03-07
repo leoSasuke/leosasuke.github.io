@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Preston City, BYU Idaho, Lesson 4, Leonardo Cavachini">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|IBM+Plex+Serif|Kalam|Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/update.js"></script>
+    
+    <script src="js/toggle.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Preston Town</title>
+</head>
+<body>
+    <header class="clearfix">
+        <img src="images/logo_beach.png" alt="logo">
+        <h1>My Beach Funny</h1>
+        <h2>Let's go to Beach!!</h2>
+    </header>
+    <div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="prinav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Preston</a></li>
+            <li><a href="soda spring.html">Soda Spring</a></li>
+            <li><a href="fish haven.html">Fish Haven</a></li>
+            <li><a href="storm center.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main class="clearfix">
+      <h1>Weather Gallery</h1>
+      <div id="picture">
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol1.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol2.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/sol3.jpg">
+          <div class="subtitle">Sunny Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/Neve.jpg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/neve2.jpeg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/neve3.jpg">
+          <div class="subtitle">Snowy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/nublado1.jpg">
+          <div class="subtitle">Cloudy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/nublado2.jpg">
+          <div class="subtitle">Cloudy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/relampago1.jpg">
+          <div class="subtitle">Flashing Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/relampago2.jpg">
+          <div class="subtitle">Flashing Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/ventando.jpg">
+          <div class="subtitle">Windy Weather</div>
+        </figure>
+        <figure>
+          <img class="pic" src="images/placeholder.jpg" data-src="images/ventando_2.jpg">
+          <div class="subtitle">Windy Weather</div>
+        </figure>
+      </div>
+    </main>
+    <footer class="clearfix">
+        <p>&copy; 2020 &bull; Leonardo Cavachini &bull; <span id="currentDate"></span></p>
+    </footer>
+
+<script src="js/lazy.js"></script>
+</body>
+</html>

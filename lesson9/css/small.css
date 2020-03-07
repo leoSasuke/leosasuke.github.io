@@ -1,0 +1,178 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+/*----------- HEADER --------------*/
+header {
+    padding: .9rem 15%;
+    background-color:#4682B4;
+    font-family: 'Kalam', cursive;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+header img {float:left; margin: 10px; width: 55px;}
+header h1 {margin: 0; font-size: 1.3rem;margin-top: 17px;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;text-align: left;}
+/*----------- NAVIGATION --------------*/
+div#navWrapper{background-color:#7EC0EE;}
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+nav ul li{
+    font-size: 1rem;
+    font-family:'Concert One',cursive;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: .8rem 2%;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,3);
+}
+nav ul li a:hover{
+    background-color:rgba(0,0,0,.4);
+}
+nav ul li.active a{background-color: rgba(0, 0, 0,.4);color: white;}
+nav button{
+    margin: .2rem 15%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+nav ul.hide{display: none;}
+/*----------- MAIN --------------*/
+div#message{
+    background-color: yellow;
+    text-align: center;
+}
+div.showme{display: block;}
+div.hideme{display: none;}
+main{
+    width: 100%;
+    margin:0 auto;
+}
+main div{
+    padding:10px;
+}
+h2{text-align: center;}
+/*.hero-ph{
+    margin: 1px auto;
+    width: 98%;
+    height: auto;
+}*/
+
+.herodiv{
+    margin: 1px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;}
+.weathersummary{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: rgba(0, 26, 201, 0.4);
+    border: 1px solid green;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+    color:white;
+}
+
+.contact{
+    background-color: silver;
+    margin-top:  15px;
+}
+.article{
+    background-color: silver;
+}
+.myphoto img{
+    width: 100%;
+}
+
+figure{
+    float: left;
+    margin: auto;
+}
+.pic{
+
+   width: 290px;
+   height: 210px;
+   box-shadow: 1px 0px 6px black;
+   opacity:70%;
+   margin-right: 10px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+}
+.pic:hover{
+    opacity: 100%;
+    size: 100%;
+}
+figure figcaption{
+    flex-direction: column;
+}
+figure .subtitle{
+    text-align: center;
+    width: 290px;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+    
+}
+.thanks{
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+
+}
+div.cards {
+    display: grid;
+    row-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+div.cards section {
+    display: block;
+    text-align: center;
+    background: linear-gradient(36deg, rgba(224, 238, 198, 1) 0%, rgba(194, 168, 62, 1) 48%, rgba(166, 211, 160, 1) 100%);
+    margin: 5px 0;
+    box-shadow: 0 0 30px #c2a83e;
+}
+
+div.cards section h2 {
+    background: none;
+}
+
+div.cards section p {
+    padding: 5px;
+}
+
+div.cards section p:nth-child(2) {
+    font-style: italic;
+}
+div.cards img{
+    size: 50%;
+}
+/*----------- FOOTER --------------*/
+footer p{
+    text-align:center;
+}
+
+div#footerWrapper{background-color:#7EC0EE;}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
