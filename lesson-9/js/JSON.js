@@ -29,7 +29,7 @@ fetch(requestURL)
                 avgrf.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
                 img.setAttribute('src', 'images/' + towns[i].photo);
-                img.setAttribute('alt', towns[i].name+'-'+towns[i].motto);
+                img.setAttribute('alt', towns[i].name);
 
                 card.appendChild(h2);
                 card.appendChild(motto);
