@@ -145,7 +145,7 @@ div.cards {
 div.cards section {
     display: block;
     text-align: center;
-    background: linear-gradient(36deg, rgb(198, 199, 238) 0%, rgb(98, 97, 114) 48%, rgb(160, 169, 211) 100%);
+    background: linear-gradient(36deg, rgb(47, 49, 155) 0%, rgb(73, 71, 105) 48%, rgb(119, 141, 235) 100%);
     margin: 5px 0;
     box-shadow: 0 0 30px #00BFFF;
 }
