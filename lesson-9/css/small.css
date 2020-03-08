@@ -163,9 +163,6 @@ div.cards section p {
 div.cards section p:nth-child(2) {
     font-style: italic;
 }
-div.cards img{
-    size: 50%;
-}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
