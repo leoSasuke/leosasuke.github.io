@@ -145,17 +145,19 @@ div.cards {
 div.cards section {
     display: block;
     text-align: center;
-    background: linear-gradient(36deg, rgb(51, 53, 145) 0%, rgb(76, 75, 88) 48%, rgb(80, 108, 235) 100%);
+    background: linear-gradient(36deg, rgb(83, 84, 163) 0%, rgb(76, 75, 88) 48%, rgb(80, 108, 235) 100%);
     margin: 5px 0;
     box-shadow: 0 0 30px rgb(47, 64, 143);
 }
 
 div.cards section h2 {
     background: none;
+    color: white;
 }
 
 div.cards section p {
     padding: 5px;
+    color: white;
 }
 
 div.cards section p:nth-child(2) {
