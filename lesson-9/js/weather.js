@@ -10,7 +10,7 @@ fetch(apiURL)
     
     document.getElementById('ceu').innerHTML=weatherInfo.main;
     
-    document.getElementById('temp').innerHTML=weatherInfo.weather[main];
+    document.getElementById('temp').innerHTML=weatherInfo.main.temp;
     document.getElementById('speed').innerHTML=weatherInfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherInfo.main.humidity;
 
