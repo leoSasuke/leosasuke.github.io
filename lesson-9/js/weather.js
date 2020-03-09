@@ -8,9 +8,9 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
     
-    document.getElementById('ceu').innerHTML=weather.main;
+    document.getElementById('ceu').innerHTML=weatherInfo.main;
     
-    document.getElementById('temp').innerHTML=weatherInfo.main.temp;
+    document.getElementById('temp').innerHTML=weatherInfo.weather[main];
     document.getElementById('speed').innerHTML=weatherInfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherInfo.main.humidity;
 
