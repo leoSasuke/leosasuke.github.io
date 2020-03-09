@@ -14,12 +14,12 @@ fetch(apiURL)
     document.getElementById('speed').innerHTML=weatherInfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherInfo.main.humidity;
 
-    const iconcode = weatherInfo.weather[0].icon;
+    /*const iconcode = weatherInfo.weather[0].icon;
     console.log(iconcode);
     const icon_path = "//openweathermap.org/img/w/"+ +".png";
     console.log("icon_path");
 
-    document.getElementById('weather_icon').src = icon_path;
+    document.getElementById('weather_icon').src = icon_path;*/
 
 
  }); //end of "then" fat arrow function
