@@ -20,7 +20,7 @@ for(i=0;i< prophets.length;i++){
     image.setAttribute('src', prophets[i].imageurl,alt="Heber J. Grant - 7");
     h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
     h3.textContent = prophets[i].birthdate + ' ' + prophets[i].birthplace;
-    h4.textContent = prophets[i].death;
+    h4.textContent = 'Deathdate'+prophets[i].death;
 card.appendChild(h2);
 card.appendChild(h3);
 card.appendChild(h4);
