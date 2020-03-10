@@ -1,14 +1,14 @@
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=preston,us&mode=json&appid=78b78816d97bf3ea58188b7f4b8332fb"
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=524901&appid=78b78816d97bf3ea58188b7f4b8332fb"
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
   .then((response) => response.json())
-  .then((weatherInfo) => {
+  .then((infotempo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherInfo);
+    console.log(infotempo);
     
-    document.getElementById('00').innerHTML=weatherInfo.weather[0].main;
+    /*document.getElementById('00').innerHTML=weatherInfo.weather[0].main;
     
     document.getElementById('01').innerHTML=weatherInfo.main.temp;
     document.getElementById('02').innerHTML=weatherInfo.wind.speed;
