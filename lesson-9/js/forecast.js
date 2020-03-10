@@ -1,8 +1,12 @@
+const mydate = new Date();
+const y = mydate.getDay();
+console.log(y);
+
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=524901&appid=78b78816d97bf3ea58188b7f4b8332fb"
+//const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=524901&appid=78b78816d97bf3ea58188b7f4b8332fb"
 
 //Go fetch it and then wait for a response.
-fetch(apiURL)
+/*fetch(apiURL)
   .then((response) => response.json())
   .then((infotempo) => {
     //Once it comes back, display it to the console.
@@ -22,4 +26,4 @@ fetch(apiURL)
     document.getElementById('weather_icon').src = icon_path;*/
 
 
- }); //end of "then" fat arrow function
+ //}); //end of "then" fat arrow function
