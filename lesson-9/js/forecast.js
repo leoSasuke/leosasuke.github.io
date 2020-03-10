@@ -1,4 +1,4 @@
-const mydate = new Date();
+/*const mydate = new Date();
 const y = mydate.getDay();
 
 const myweekday = new Array(7);
@@ -10,7 +10,13 @@ myweekday[4] = "Thursday";
 myweekday[5] ="Friday";
 myweekday[6] ="Saturday";
 
-console.log(myweekday[2]);
+console.log(myweekday[2]);*/
+const d = new Date();
+
+const todayDayNumber = d.getDay();
+let forecastDayNumber = todayDayNumber;
+
+console.log(forecastDayNumber);
 
 //ADD the key and change units to imperial
 const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial";
