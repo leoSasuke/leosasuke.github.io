@@ -1,6 +1,6 @@
 const mydate = new Date();
 const y = mydate.getDay();
-console.log(y);
+
 const myweekday = new Array(7);
 myweekday[0] = "Sunday";
 myweekday[1] ="Monday";
@@ -13,7 +13,7 @@ myweekday[6] ="Saturday";
 console.log(myweekday[2]);
 
 //ADD the key and change units to imperial
-//const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=524901&appid=78b78816d97bf3ea58188b7f4b8332fb"
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5879400&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial";
 
 //Go fetch it and then wait for a response.
 /*fetch(apiURL)
