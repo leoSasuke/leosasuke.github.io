@@ -6,7 +6,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherInfo);
+    //console.log(weatherInfo);
     
     document.getElementById('sky').innerHTML=weatherInfo.weather[0].main;
     
