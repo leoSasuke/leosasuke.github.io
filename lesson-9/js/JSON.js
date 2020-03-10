@@ -9,8 +9,8 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         console.log(towns);
 
-         let pagetowns = [townsdata[4], townsdata[5], townsdata[1]];
-        console.log(pagetowns);
+         //let pagetowns = [townsdata[4], townsdata[5], townsdata[1]];
+       // console.log(pagetowns);
 
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
