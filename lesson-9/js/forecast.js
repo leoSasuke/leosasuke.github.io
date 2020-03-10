@@ -36,4 +36,4 @@ fetch(apiURL)
     document.getElementById('weather_icon').src = icon_path;*/
 
 
- //}); //end of "then" fat arrow function
+ }); //end of "then" fat arrow function
