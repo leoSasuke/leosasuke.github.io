@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         console.log(towns);
 
-         let pagetowns = [towndata[4], towndata[5], towndata[1]];
+         let pagetowns = [townsdata[4], townsdata[5], townsdata[1]];
         console.log(pagetowns);
 
         for (let i = 0; i < towns.length; i++) {
