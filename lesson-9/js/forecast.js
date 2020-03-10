@@ -18,9 +18,9 @@ const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5879400&appid=78b7
 //Go fetch it and then wait for a response.
 fetch(apiURL)
   .then((response) => response.json())
-  .then((infotempo) => {
+  .then((weatherInfo) => {
     //Once it comes back, display it to the console.
-    console.log(infotempo);
+    console.log(weatherInfo);
     
     /*document.getElementById('00').innerHTML=weatherInfo.weather[0].main;
     
