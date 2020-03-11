@@ -36,7 +36,7 @@ fetch(apiURL)
           theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0";
 
         let iconcode = weatherInfo.list[i].weather[0].icon;
-        let iconPath = '//openweathermap.org/img/w/'+iconcode+'.png';
+        let iconPath = 'openweathermap.org/img/w/'+iconcode+'.png';
         console.log('iconcode');
         let theicon = document.createElement('img');
         theicon.src=iconPath;
