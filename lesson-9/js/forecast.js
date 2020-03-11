@@ -2,7 +2,7 @@ const d = new Date();
 const todayDayNumber = d.getDay();
 
 const weekday = new Array(7);
-weekday[0] ='sunday'; 
+weekday[0] ='Sunday'; 
 weekday[1] = 'Monday';
 weekday[2] = 'Tuesday';
 weekday[3] = 'Wednesday';
