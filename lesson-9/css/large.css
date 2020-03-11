@@ -39,6 +39,10 @@ div.cards section {
 div.cards section p:nth-child(2) {
     font-size: .75em;
 }
+#weatherforecast{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+}
     /*----------- FOOTER --------------*/
         
     

@@ -39,7 +39,10 @@ div.cards :nth-child(2) :nth-child(6) {
     width: 33%;
     float: right;
 }
-
+#weatherforecast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*----------- FOOTER --------------*/
     

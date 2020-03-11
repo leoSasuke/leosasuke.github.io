@@ -163,6 +163,13 @@ div.cards section p {
 div.cards section p:nth-child(2) {
     font-style: italic;
 }
+div#weatherforecast{
+   display:grid;
+   grid-template-columns: 1fr;
+}
+span{
+    color: red;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
