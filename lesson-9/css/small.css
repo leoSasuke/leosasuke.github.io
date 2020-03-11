@@ -182,7 +182,7 @@ div.cards section p:nth-child(2) {
 #weatherforecast img{
     margin: auto;
     border: 1px solid black;
-    size: 100%;
+    size: 200%;
 }
 /*----------- FOOTER --------------*/
 footer p{
