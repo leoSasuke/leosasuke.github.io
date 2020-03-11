@@ -41,7 +41,7 @@ fetch(apiURL)
         theicon.src=iconPath;
 
         let theDay = document.createElement('div');
-        theDay.appendChild(theDayName);
+        //theDay.appendChild(theDayName);
         theDay.appendChild(theTemp);
         theDay.appendChild(theicon);
 
