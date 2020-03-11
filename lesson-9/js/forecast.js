@@ -29,8 +29,8 @@ fetch(apiURL)
         if(forecastDayNumber === 7){
           forecastDayNumber = 0}
         
-          let theDayNumber = document.createElement('span');
-        theDayNumber.textContent = weekday[forecastDayNumber];
+          let theDayName = document.createElement('span');
+        theDayName.textContent = weekday[forecastDayNumber];
 
         let theTemp = document.createElement('p');
         theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0";
