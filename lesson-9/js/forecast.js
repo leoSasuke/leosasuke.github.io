@@ -30,10 +30,10 @@ fetch(apiURL)
           forecastDayNumber = 0}
         
           let theDayName = document.createElement('span');
-        theDayName.textContent = weekday[forecastDayNumber];
+          theDayName.textContent = weekday[forecastDayNumber];
 
-        let theTemp = document.createElement('p');
-        theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0";
+          let theTemp = document.createElement('p');
+          theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0";
 
         let iconcode = weatherInfo.list[i].weather[0].icon;
         let iconPath = '//openweathermap.org/img/w/'+iconcode+'png';
@@ -41,7 +41,7 @@ fetch(apiURL)
         theicon.src=iconPath;
 
         let theDay = document.createElement('div');
-        //theDay.appendChild(theDayName);
+        theDay.appendChild(theDayName);
         theDay.appendChild(theTemp);
         theDay.appendChild(theicon);
 
