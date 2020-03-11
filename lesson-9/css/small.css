@@ -170,11 +170,12 @@ div.cards section p:nth-child(2) {
    margin: auto;
    padding: auto;
 }
-h2 span{
-    color:black;
+#weatherforecast h2{
+    border:1px solid black;
 }
-span{
-    ;
+#weatherforecast p{
+    border:1px solid black;
+}
 }
 /*----------- FOOTER --------------*/
 footer p{
