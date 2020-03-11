@@ -169,7 +169,10 @@ div.cards section p:nth-child(2) {
    border: 2px solid blue;
 }
 h2 span{
-    color:red;
+    color:black;
+}
+span{
+    background-color: red;
 }
 /*----------- FOOTER --------------*/
 footer p{
