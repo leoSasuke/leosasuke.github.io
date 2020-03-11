@@ -163,7 +163,7 @@ div.cards section p {
 div.cards section p:nth-child(2) {
     font-style: italic;
 }
-div#weatherforecast{
+#weatherforecast{
    display:grid;
    grid-template-columns: 1fr;
    border: 2px solid blue;
