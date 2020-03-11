@@ -23,7 +23,7 @@ fetch(apiURL)
    for(i=0;i < mylist.length;i++){
      let time = mylist[i].dt_txt;
      if(time.includes('21:00:00')){
-        console.log('found an entry with 21:00:00 in the time,it was report'+i+'from the my list of 40');
+        //console.log('found an entry with 21:00:00 in the time,it was report'+i+'from the my list of 40');
 
         forecastDayNumber +=1;
         if(forecastDayNumber === 7){
@@ -37,7 +37,7 @@ fetch(apiURL)
 
         let iconcode = weatherInfo.list[i].weather[0].icon;
         let iconPath = '//openweathermap.org/img/w/'+iconcode+'png';
-        console.log(iconcode);
+        console.log('iconcode');
         let theicon = document.createElement('img');
         theicon.src=iconPath;
 
