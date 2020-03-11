@@ -180,9 +180,9 @@ div.cards section p:nth-child(2) {
     font-size: 13px;
 }
 #weatherforecast img{
-    margin-left:60px;
+    margin-left:140px;
     border: 1px solid black;
-    size: 200%;
+    
     
 }
 /*----------- FOOTER --------------*/
