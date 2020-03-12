@@ -40,7 +40,14 @@ fetch(apiURL)
         console.log(iconPath);
         let theicon = document.createElement('img');
         theicon.src=iconPath;
+        
 
+        
+        document.getElementById('sky').innerHTML=weatherInfo.weather[0].main;
+        document.getElementById('temp').innerHTML=weatherInfo.main.temp;
+        document.getElementById('speed').innerHTML=weatherInfo.wind.speed;
+        document.getElementById('hum').innerHTML=weatherInfo.main.humidity;
+    
         let theDay = document.createElement('div');
         theDay.appendChild(theDayName);
         theDay.appendChild(theTemp);
