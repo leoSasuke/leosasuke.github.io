@@ -10,7 +10,7 @@ weekday[4] = 'Thursday';
 weekday[5] = 'Friday';
 weekday[6] = 'Saturday';
 
-const apiURL ='//api.openweathermap.org/data/2.5/forecast?id=524901&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial';
+const apiURL ='//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial';
 
 fetch(apiURL)
 .then((response) => response.json())
@@ -22,7 +22,7 @@ fetch(apiURL)
    let forecastDayNumber = todayDayNumber;
    for(i=0;i < mylist.length;i++){
      let time = mylist[i].dt_txt;
-     if(time.includes('21:00:00')){
+     if(time.includes('18:00:00')){
         //console.log('found an entry with 21:00:00 in the time,it was report'+i+'from the my list of 40');
 
         forecastDayNumber +=1;
