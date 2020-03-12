@@ -179,8 +179,8 @@ div.cards section p:nth-child(2) {
    font-size:20px;
 }
 #weatherforecast img{
-    display: flex;
-    justify-content: center;
+   display: block;
+   margin-right: auto;
 }
 /*----------- FOOTER --------------*/
 footer p{
