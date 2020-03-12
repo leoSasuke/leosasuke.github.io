@@ -45,35 +45,24 @@ div.cards :nth-child(2) :nth-child(6) {
 
 #weatherforecast {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-
-	grid-gap: 0;
-	padding: 0;
-    
+    grid-template-columns: 1fr 1fr 1fr;    
 }
 
 #weatherforecast div {
-    
     margin-right: 0;
     padding: 0;
 }
-
 #weatherforecast p {
 text-align: center;
 color: rgba(171,20,26,1);
-
 }
-
 #weatherforecast img {
     width: 100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#weatherforecast div h2 {
-  
+#weatherforecast div h2 { 
    background-color: #7EC0EE;
 	text-align: center;
 	font-weight: bold;
@@ -82,7 +71,6 @@ color: rgba(171,20,26,1);
 	margin: 0;
 	padding: 1rem 0;
 	font-family: 'Open Sans', sans-serif;
-	
 }
 
 
