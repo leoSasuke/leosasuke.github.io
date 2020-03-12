@@ -43,27 +43,8 @@ div.cards :nth-child(2) :nth-child(6) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#weatherforecast{
-    display:grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-    background-color: #A4D3EE;
-    position: relative;
- }
- #weatherforecast h2{
-     background-color: #87CEFA;
-     font-size: 30px;
- }
- #weatherforecast p{
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
-    font-size:20px;
- }
- #weatherforecast img{
-     position: absolute;
-    
- 
- }
+
+
 /*----------- FOOTER --------------*/
     
 
