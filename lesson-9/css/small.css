@@ -180,7 +180,7 @@ div.cards section p:nth-child(2) {
 }
 #weatherforecast img{
    display: block;
-   margin-right: auto;
+   margin-right: 50px;
 }
 /*----------- FOOTER --------------*/
 footer p{
