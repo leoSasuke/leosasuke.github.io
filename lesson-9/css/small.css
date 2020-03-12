@@ -166,7 +166,7 @@ div.cards section p:nth-child(2) {
 #weatherforecast{
    display:grid;
    grid-template-columns: 1fr;
-
+}
 /*----------- FOOTER --------------*/
 footer p{
     position: absolute;
