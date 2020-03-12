@@ -75,10 +75,14 @@ color: rgba(171,20,26,1);
 
 
 /*----------- FOOTER --------------*/
-    
-
+footer p{
+    position: absolute;
+    text-align:center;
+}
+div#footerWrapper{background-color:#7EC0EE;}
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }}/* end of media query */
+  }

@@ -43,12 +43,15 @@ div.cards section p:nth-child(2) {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
 }
-
-    /*----------- FOOTER --------------*/
-        
-    
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }}/* end of media query */
+/*----------- FOOTER --------------*/
+footer p{
+    position: absolute;
+    text-align:center;
+}
+div#footerWrapper{background-color:#7EC0EE;}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
