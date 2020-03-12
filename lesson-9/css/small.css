@@ -168,7 +168,7 @@ div.cards section p:nth-child(2) {
    grid-template-columns: 1fr;
    border: 2px solid blue;
    margin: auto;
-   
+   background-color: #A4D3EE;
 }
 #weatherforecast h2{
     background-color: #87CEFA;
@@ -181,7 +181,6 @@ div.cards section p:nth-child(2) {
 }
 #weatherforecast img{
 
-    align-items: center;
 }
 /*----------- FOOTER --------------*/
 footer p{
