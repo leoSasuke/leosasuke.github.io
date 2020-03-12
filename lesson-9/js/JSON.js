@@ -28,9 +28,9 @@ fetch(requestURL)
                 cp.textContent = "Population: " + towns[i].currentPopulation;
                 avgrf.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
-                img.setAttribute('src', './images/' + towns[i].photo);
+                img.setAttribute('src', 'images/' + towns[i].photo);
                 img.setAttribute('alt', towns[i].name);
-
+                console.log(img);
                 card.appendChild(h2);
                 card.appendChild(motto);
                 card.appendChild(yf);
