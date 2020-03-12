@@ -27,17 +27,17 @@ fetch(apiURL)
 
         forecastDayNumber +=1;
         if(forecastDayNumber === 7){
-          forecastDayNumber = 0}
+          forecastDayNumber = 0;}
         
           let theDayName = document.createElement('h2');
           theDayName.textContent = weekday[forecastDayNumber];
           
           let theTemp = document.createElement('p');
-          theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0"+"F";
+          theTemp.textContent = weatherInfo.list[i].main.temp +"\xB0";
 
         let iconcode = weatherInfo.list[i].weather[0].icon;
         let iconPath = "https://openweathermap.org/img/w/"+iconcode+".png";
-        console.log(iconPath);
+        ///console.log(iconPath);
         let theicon = document.createElement('img');
         theicon.src=iconPath;
         
