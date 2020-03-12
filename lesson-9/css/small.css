@@ -176,13 +176,11 @@ div.cards section p:nth-child(2) {
 }
 #weatherforecast p{
     text-align: center;
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 #weatherforecast img{
-    
-    border: 1px solid black;
-    
-    
+    grid-auto-rows: auto;
 }
 /*----------- FOOTER --------------*/
 footer p{
