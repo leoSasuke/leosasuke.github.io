@@ -149,9 +149,6 @@ div.cards section {
     margin: 5px 0;
     box-shadow: 0 0 30px rgb(47, 64, 143);
 }
-div.cards section img{
-    display: block;
-}
 div.cards section h2 {
     background: none;
     color: white;
