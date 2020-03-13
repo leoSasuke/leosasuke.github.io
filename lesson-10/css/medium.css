@@ -1,0 +1,87 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width:35rem){
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+   nav button {display: none;}
+   nav ul{margin-left: 15%;}
+   nav ul li{
+       float: left;
+   }
+   nav ul li a {
+       border:none;
+       border-right: 1px solid rgba(0,0,0,.3);
+       padding: .8rem 1rem;
+   }
+   nav ul.hide{display: block;}
+  
+/*----------- MAIN --------------*/
+div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.cards section img {
+    grid-row: 1 / 6;
+}
+div.cards :nth-child(2) :nth-child(6) {
+    grid-column: 2 / 3;
+}
+
+.dailyStory div img {
+    width: 33%;
+    float: right;
+}
+.forecastInfo {
+	display: block;
+}
+
+#weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+
+#weatherforecast div {
+    margin-right: 0;
+    padding: 0;
+}
+#weatherforecast p {
+text-align: center;
+color: rgba(171,20,26,1);
+}
+#weatherforecast img {
+    width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weatherforecast div h2 { 
+   background-color: #7EC0EE;
+	text-align: center;
+	font-weight: bold;
+    opacity: .8;
+    color:white;
+	margin: 0;
+	padding: 1rem 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*----------- FOOTER --------------*/
+footer p{
+    text-align:center;
+}
+div#footerWrapper{background-color:#7EC0EE;}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }}
