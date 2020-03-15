@@ -1,5 +1,5 @@
 //ADD the key and change units to imperial
-//const apiURLweather = "//api.openweathermap.org/data/2.5/forecast?lat={42.0369}&lon={-111.3963}&&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial"
+const apiURLweather = "//api.openweathermap.org/data/2.5/weather?q=fish haven,us&&appid=78b78816d97bf3ea58188b7f4b8332fb&units=imperial"
 
 //Go fetch it and then wait for a response.
 fetch(apiURLweather)
