@@ -17,6 +17,7 @@
     <title>Preston Town</title>
 </head>
 <body>
+    <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. <br>Saturday at the city park pavilion." </div>
     <header class="clearfix">
         <img src="images/logo_beach.png" alt="logo">
         <h1>My Beach Funny</h1>
@@ -27,32 +28,60 @@
         <button onclick="toggleMenu()">&#9776</button>
         <ul id="prinav" class="hide">
             <li><a href="home.html">Home</a></li>
-            <li><a href="index.html">Preston</a></li>
-            <li><a href="soda spring.html">Soda Spring</a></li>
-            <li class="active"><a href="fish haven.html">Fish Haven</a></li>
+            <li class="active"><a href="index.html">Preston</a></li>
+            <li><a href="soda spring.html">Sada Spring</a></li>
+            <li><a href="fish haven.html">Fish Haven</a></li>
             <li><a href="storm center.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
     </div>
     <main class="clearfix">
-     <h2>Fish Haven</h2>
+     <h2>Preston</h2>
      <div class="herodiv">
-        <div class="hero-ph"><img src="images/laketown.jpg"></div>
+        <picture class="myphoto"> 
+            <source media="(max-width: 500px)" srcset="./images/cit230_small.jpg">
+            <source media="(max-width: 960px)" srcset="./images/cit230_medium.jpg">
+            <source media="(max-width: 1280px)" srcset="./images/cit230_large.jpg">
+            <img src="images/cit230_large.jpg" alt="hero img">
+        </picture>
         <section class="weathersummary">
          <h3>Weather Summary</h3>
-         <p>label: value</p>
-         <p>label: value</p>
-         <p>label: value</p>
+         <p>Currently: <span id="sky"></span></p>
+         <p>High: <span id="temp">48</span> &deg;F</p>
+         <p>Wind Chill: <span id="chill">48</span> &deg;F</p>
+         <p>Humidity:<span id="hum"></span>%</p>
+         <p>wind Speed: <span id="speed">5</span> mph</p>
      </section>
-    </div>
-     <div class="article">Article and related image will go here soon</div>
-     <div class="contact">Contact us with an address and map will and up here</div>
+     
+        <section class="forecastinfo">
+            <h2><span id="townName">town</span> 5-Day Forcast</h2>
+            <div id="weatherforecast"></div>
+        </section>
+         <div class="article">Article and related image will go here soon</div>
+         <div class="contact">Contact us with an address and map will and up here</div>
     </main>
     <div id="footerWrapper">
     <footer class="clearfix">
         <p>&copy; 2020 &bull; Leonardo Cavachini &bull; <span id="currentDate"></span></p>
     </footer>
+   <script>
+     const today=new Date();
+     console.log(today);
+
+     const dayNumber=today.getDay();
+     console.log(dayNumber);
+
+     let element = document.getElementById("message");
+
+     if(dayNumber == 5){
+     element.classList.add("showme");
+     }else{
+     element.classList.add("hideme");
+      }
+   </script>
 </div>
+ <script src="js/windchill.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 </body>
 </html>
