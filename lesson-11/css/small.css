@@ -197,6 +197,9 @@ color: rgba(171,20,26,1);
 	padding: 1rem 0;
 	font-family: 'Open Sans', sans-serif;
 }
+.contact img{
+    display: flex;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
