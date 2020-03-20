@@ -93,9 +93,11 @@ h2{text-align: center;}
 .contact{
     background-color:#4682B4;
     margin-top:  15px;
+    font-family: 'Kalam', cursive;
 }
 .article{
     background-color:#4682B4;
+    font-family: 'Kalam', cursive;
 }
 .myphoto img{
     width: 100%;

@@ -74,6 +74,7 @@ color: rgba(171,20,26,1);
 }
 .contact{
     display: flex;
+    justify-content: space-around;
 }
 /*----------- FOOTER --------------*/
 footer p{
