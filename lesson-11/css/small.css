@@ -195,11 +195,9 @@ color: rgba(171,20,26,1);
 	padding: 1rem 0;
 	font-family: 'Open Sans', sans-serif;
 }
-.contact{
-    display: flex;
-}
+
 .map{
-    display: none;
+    
 }
 /*----------- FOOTER --------------*/
 footer p{
