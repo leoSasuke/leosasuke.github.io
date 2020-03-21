@@ -6,7 +6,7 @@ fetch(apiURLweather)
   .then((response) => response.json())
   .then((weatherinfo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherinfo);
+    //console.log(weatherinfo);
     
     document.getElementById('sky').innerHTML=weatherinfo.weather[0].main;
     
@@ -20,4 +20,10 @@ fetch(apiURLweather)
     
  }); //end of "then" fat arrow function
 
- 
+ const api = '//byui-cit230.github.io/weather/data/towndata.json'
+
+ fetch(api)
+  .then((response) => response.json())
+  .then((festa) => {
+    console.log(festa);
+  });
