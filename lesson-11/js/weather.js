@@ -14,9 +14,9 @@ fetch(apiURLweather)
     document.getElementById('speed').innerHTML=weatherinfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherinfo.main.humidity;
 
-    document.getElementById('first').innerHTML=weatherinfo.events[0].events[0];
-   document.getElementById('first').innerHTML=weatherinfo.events[1];
-   document.getElementById('first').innerHTML=weatherinfo.events[2];
+   //document.getElementById('first').innerHTML=weatherinfo.events[0].events[0];
+   //document.getElementById('first').innerHTML=weatherinfo.events[1];
+   //document.getElementById('first').innerHTML=weatherinfo.events[2];
     
  }); //end of "then" fat arrow function
 
