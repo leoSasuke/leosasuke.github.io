@@ -17,9 +17,9 @@ fetch(apiURLweather)
     
  }); //end of "then" fat arrow function
 
- const apiURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+ const url = "https://byui-cit230.github.io/weather/data/towndata.json"
 
- fetch(apiURL)
+ fetch(url)
  .then((response) => response.json())
  .then((cityEvent) =>{
    console.log(cityEvent);
