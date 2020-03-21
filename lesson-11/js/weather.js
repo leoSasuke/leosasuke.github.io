@@ -27,5 +27,5 @@ fetch(apiURLweather)
   .then((festa) => {
     console.log(festa);
 
-    document.getElementById('first').innerHTML = api.towns[0].events[0];
+    document.getElementById('first').innerHTML = festa.towns[0].events[0];
   });
