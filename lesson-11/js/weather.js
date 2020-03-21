@@ -14,17 +14,10 @@ fetch(apiURLweather)
     document.getElementById('speed').innerHTML=weatherinfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherinfo.main.humidity;
 
+    document.getElementById('first').innerHTML=weatherinfo.events[0].events[0];
+   document.getElementById('first').innerHTML=weatherinfo.events[1];
+   document.getElementById('first').innerHTML=weatherinfo.events[2];
     
  }); //end of "then" fat arrow function
 
- const url = "//byui-cit230.github.io/weather/data/towndata.json"
-
- fetch(url)
- .then((response) => response.json())
- .then((cityEvent) =>{
-   console.log(cityEvent);
-
-   document.getElementById('first').innerHTML=cityEvent.events[0];
-   document.getElementById('first').innerHTML=cityEvent.events[1];
-   document.getElementById('first').innerHTML=cityEvent.events[2];
- })
+ 
