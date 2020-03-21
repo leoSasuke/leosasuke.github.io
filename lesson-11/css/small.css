@@ -199,10 +199,7 @@ color: rgba(171,20,26,1);
 }
 
 #town{
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+   float: right;
 }
 /*----------- FOOTER --------------*/
 footer p{
