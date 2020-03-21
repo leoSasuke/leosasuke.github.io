@@ -98,10 +98,11 @@ h2{text-align: center;}
 .article{
     background-color:#7EC0EE;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 18px;
 }
 .article h4{
     font-family: 'Kalam', cursive;
+    font-size: 20px;
 }
 .myphoto img{
     width: 100%;
