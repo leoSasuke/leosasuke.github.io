@@ -196,7 +196,10 @@ color: rgba(171,20,26,1);
 	margin: 0;
 	padding: 1rem 0;
 	font-family: 'Open Sans', sans-serif;
-
+}
+#town{
+    float: right;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
