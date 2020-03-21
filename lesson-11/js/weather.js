@@ -14,12 +14,17 @@ fetch(apiURLweather)
     document.getElementById('speed').innerHTML=weatherinfo.wind.speed;
     document.getElementById('hum').innerHTML=weatherinfo.main.humidity;
 
-    /*const iconcode = weatherInfo.weather[0].icon;
-    console.log(iconcode);
-    const icon_path = "//openweathermap.org/img/w/"+iconcode +".png";
-    console.log("icon_path");
-
-    document.getElementById('weather_icon').src = icon_path;*/
-
-
+    
  }); //end of "then" fat arrow function
+
+ const apiURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+
+ fetch(apiURL)
+ .then((response) => response.json())
+ .then((cityEvent) =>{
+   console.log(cityEvent);
+
+   document.getElementById('first').innerHTML=cityEvent.events[0];
+   document.getElementById('first').innerHTML=cityEvent.events[1];
+   document.getElementById('first').innerHTML=cityEvent.events[2];
+ })
