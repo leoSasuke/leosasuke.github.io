@@ -75,6 +75,9 @@ color: rgba(171,20,26,1);
 #town{
     float: right;
  }
+ .contact{
+     display: flex;
+ }
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
