@@ -76,3 +76,15 @@ fetch(apiURL)
      }
    }
 });
+
+const api = '//byui-cit230.github.io/weather/data/towndata.json'
+
+ fetch(api)
+  .then((response) => response.json())
+  .then((festa) => {
+    console.log(festa);
+
+    document.getElementById('primeiro').innerHTML = festa.towns[2].events[0];
+    document.getElementById('segundo').innerHTML = festa.towns[2].events[1];
+    document.getElementById('terceiro').innerHTML = festa.towns[2].events[2];
+  });

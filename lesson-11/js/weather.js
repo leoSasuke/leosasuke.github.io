@@ -30,12 +30,4 @@ fetch(apiURLweather)
     document.getElementById('first').innerHTML = festa.towns[0].events[0];
     document.getElementById('second').innerHTML = festa.towns[0].events[1];
     document.getElementById('third').innerHTML = festa.towns[0].events[2];
-
-    document.getElementById('primeiro').innerHTML = festa.towns[2].events[0];
-    document.getElementById('segundo').innerHTML = festa.towns[2].events[1];
-    document.getElementById('terceiro').innerHTML = festa.towns[2].events[2];
-
-    document.getElementById('um').innerHTML = festa.towns[5].events[0];
-    document.getElementById('dois').innerHTML = festa.towns[5].events[1];
-    document.getElementById('tres').innerHTML = festa.towns[5].events[2];
   });
