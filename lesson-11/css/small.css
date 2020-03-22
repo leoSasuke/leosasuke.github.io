@@ -204,10 +204,12 @@ color: rgba(171,20,26,1);
 }
 
 .townEvents{
-    background-color: #777;
-    height: 200px;
+    background-color: #B0C4DE;
+    height: 150px;
     width: 300px;
     margin: auto;
+    font-family: 'Rubik', sans-serif;
+    border: 8px solid #2F4F4F;
 }
 /*----------- FOOTER --------------*/
 footer p{
