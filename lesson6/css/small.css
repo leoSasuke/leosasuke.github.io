@@ -133,7 +133,7 @@ figure .subtitle{
     font-family: 'Kalam', cursive;
     font-size: 25px;
 }
-fieldset input{
+input[type="submit"] {
     background-color: crimson;
 }
 /*----------- FOOTER --------------*/
