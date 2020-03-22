@@ -214,6 +214,9 @@ color: rgba(171,20,26,1);
 .townEvents h2{
     background-color: #ADD8E6; 
 }
+.forecastInfo{
+    display: none;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
