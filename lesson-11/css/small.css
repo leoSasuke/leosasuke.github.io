@@ -212,7 +212,7 @@ color: rgba(171,20,26,1);
     border: 8px solid #2F4F4F;
     padding: 10px;}
 .townEvents h2{
-    background-color: aquamarine <p>&copy; 2020 &bull; The weather Site &bull;Attributions&bull;Leonardo Cavachini <span id="currentDate"></span></p>;
+    background-color: aquamarine; 
 }
 /*----------- FOOTER --------------*/
 footer p{
