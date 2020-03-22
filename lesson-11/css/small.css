@@ -221,6 +221,7 @@ color: rgba(171,20,26,1);
 }
 .map iframe{
     box-shadow: 5px 5px 10px black;
+    width: 100%;
 }
 /*----------- FOOTER --------------*/
 footer p{
