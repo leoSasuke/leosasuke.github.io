@@ -210,7 +210,8 @@ color: rgba(171,20,26,1);
     margin: auto;
     font-family: 'Rubik', sans-serif;
     border: 8px solid #2F4F4F;
-    padding: 10px;}
+    padding: 10px;
+    box-shadow: 2px black;}
 .townEvents h2{
     background-color: #ADD8E6; 
 }
