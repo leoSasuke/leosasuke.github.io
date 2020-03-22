@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/update.js"></script>
-    
     <script src="js/toggle.js"></script>
     <link rel="shortcut icon" href="favicon.ico">
     <title>Preston Town</title>
@@ -89,10 +88,27 @@
         </figure>
       </div>
     </main>
-    <footer class="clearfix">
-      <p>&copy; 2020 &bull; The weather Site &bull;Attributions&bull;Leonardo Cavachini <span id="currentDate"></span></p>
-    </footer>
-
-<script src="js/lazy.js"></script>
-</body>
-</html>
+    <div id="footerWrapper">
+      <footer class="clearfix">
+          <p>&copy; 2020 &bull; The weather Site &bull;Attributions&bull;Leonardo Cavachini <span id="currentDate"></span></p>
+      </footer>
+     <script>
+       const today=new Date();
+       console.log(today);
+  
+       const dayNumber=today.getDay();
+       console.log(dayNumber);
+  
+       let element = document.getElementById("message");
+  
+       if(dayNumber == 5){
+       element.classList.add("showme");
+       }else{
+       element.classList.add("hideme");
+        }
+     </script>
+  </div>
+   <script src="js/windchill.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+  </html>
