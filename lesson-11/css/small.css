@@ -221,6 +221,7 @@ color: rgba(171,20,26,1);
 }
 .map{
     width:  100%;
+    box-shadow: 5px 5px 10px black;
 }
 /*----------- FOOTER --------------*/
 footer p{
