@@ -219,6 +219,9 @@ color: rgba(171,20,26,1);
 .forecastinfo{
     display: none;
 }
+.map{
+    size: 50%;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
