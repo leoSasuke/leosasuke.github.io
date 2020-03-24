@@ -30,11 +30,14 @@
 .icons{
     display: flex;
     justify-content: space-between;
+    width: 70%;
 }
 .contact h2{
     text-align: center;
 }
-
+.map{
+    float: right;
+}
 
 /*----------- FOOTER --------------*/
     
