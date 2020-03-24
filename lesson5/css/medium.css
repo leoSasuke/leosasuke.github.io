@@ -24,6 +24,9 @@
    nav ul.hide{display: block;}
   
 /*----------- MAIN --------------*/
+#town{
+    float: right;
+ }
 .contact{
     display: flex;
     justify-content: space-between;
