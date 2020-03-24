@@ -35,11 +35,12 @@
 }
 
 .map{
-    float: right;
+    justify-content: space-between;
 }
 .contact{
     display: flex
 }
+
 /*----------- FOOTER --------------*/
     
 
