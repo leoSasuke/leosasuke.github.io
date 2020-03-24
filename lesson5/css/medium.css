@@ -27,9 +27,12 @@
 #town{
     float: right;
  }
-.contact{
+.icons{
     display: flex;
     justify-content: space-between;
+}
+.contact h4{
+    text-align: center;
 }
 .weatherIcon{
     display: flex;
