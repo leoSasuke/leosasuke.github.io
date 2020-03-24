@@ -70,12 +70,9 @@ h2{text-align: center;}
 .hero-ph{
     width: 100%;
 }
-
 .herodiv{
+    margin: 10px auto;
     position: relative;
-    width: 100%;
-    height: auto;
-    padding: 0;
 }
 .weathersummary{
     position: absolute;
