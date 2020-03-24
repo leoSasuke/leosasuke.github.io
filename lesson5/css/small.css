@@ -94,6 +94,7 @@ h2{text-align: center;}
 }
 .article{
     background-color: silver;
+    display: flex;
 }
 .artticle img{
     float: left;
