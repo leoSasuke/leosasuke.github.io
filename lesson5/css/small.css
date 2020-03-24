@@ -65,11 +65,12 @@ main{
 }
 main div{
     padding:10px;
+    border: 3px solid black;
 }
 h2{text-align: center;}
 .hero-ph{
     margin: 1px auto;
-    width: 98%;
+    width: 100%;
     height: auto;
 }
 
