@@ -36,7 +36,9 @@
 .map{
     float: right;
 }
-
+.contact{
+    display: block;
+}
 /*----------- FOOTER --------------*/
     
 
