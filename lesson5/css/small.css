@@ -68,16 +68,15 @@ main div{
 }
 h2{text-align: center;}
 .hero-ph{
-    margin: 1px auto;
     width: 100%;
-    height: auto;
 }
 
 .herodiv{
     margin: 1px auto;
     position: relative;
-    width: 960px;
-    height: auto;}
+    width: 100%;
+    height: auto;
+    padding: 0;}
 .weathersummary{
     position: absolute;
     top: 75px;
