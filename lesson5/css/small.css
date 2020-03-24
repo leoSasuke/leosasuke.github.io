@@ -67,10 +67,9 @@ main div{
     padding:5px;
 }
 h2{text-align: center;}
-/*.hero-ph{
+.hero-ph{
     width: 100%;
-    size: 150%;
-}*/
+}
 .herodiv{
     margin: 1px auto;
     position: relative;
