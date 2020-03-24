@@ -67,26 +67,26 @@ main div{
     padding:5px;
 }
 h2{text-align: center;}
-.hero-ph{
+/*.hero-ph{
     width: 100%;
     size: 150%;
-}
+}*/
 .herodiv{
-    display: block;
-    width: 960px;
-
-}
-
+    margin: 1px auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;}
 .weathersummary{
     position: absolute;
-    top: 75px;
-    left: 75px;
-    background: radial-gradient(rgb(81, 81, 204),lightblue);
+    top: 25px;
+    left: 25px;
+    background: rgba(0, 26, 201, 0.4);
     border: 1px solid green;
     padding: .5rem;
     box-shadow: 0 0 30px #777;
+    color:white;
 }
-
 .contact{
     background-color: silver;
     margin-top:  15px;
