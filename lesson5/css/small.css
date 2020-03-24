@@ -96,7 +96,9 @@ h2{text-align: center;}
     background-color: silver;
 
 }
-
+.contact iframe{
+    width: 100%;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
