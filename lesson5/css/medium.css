@@ -33,12 +33,9 @@
     width: 70%;
     margin: auto;
 }
-
-.map{
-    justify-content: space-between;
-}
 .contact{
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 
 /*----------- FOOTER --------------*/
