@@ -96,7 +96,10 @@ h2{text-align: center;}
     background-color: silver;
 }
 .artticle img{
-    float: right;
+    float: left;
+}
+.article h2,h4{
+    text-align: right;
 }
 /*----------- FOOTER --------------*/
 footer p{
