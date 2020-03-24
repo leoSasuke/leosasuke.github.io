@@ -99,6 +99,9 @@ h2{text-align: center;}
 .contact iframe{
     width: 100%;
 }
+.weatherIcon{
+    display: none;
+}
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;
