@@ -31,13 +31,14 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
+    margin: auto;
 }
 
 .map{
     float: right;
 }
 .contact{
-    display: block;
+    display: flex
 }
 /*----------- FOOTER --------------*/
     
