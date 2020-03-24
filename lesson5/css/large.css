@@ -24,7 +24,10 @@
     nav ul.hide{display: block;}
    
  /*----------- MAIN --------------*/
- 
+ main{
+    width: 70%;
+    margin:0 auto;
+ }
     /*----------- FOOTER --------------*/
         
     

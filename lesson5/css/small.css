@@ -60,7 +60,7 @@ div#message{
 div.showme{display: block;}
 div.hideme{display: none;}
 main{
-    width: 70%;
+    width: 100%;
     margin:0 auto;
 }
 main div{
@@ -72,6 +72,7 @@ h2{text-align: center;}
     size: 150%;
 }*/
 .herodiv{
+    margin: 1px auto;
     position: relative;
     width: 100%;
     height: auto;
