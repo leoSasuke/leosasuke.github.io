@@ -37,7 +37,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.weatherIcon{
+    display: block;
+}
 /*----------- FOOTER --------------*/
     
 
