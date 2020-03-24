@@ -70,6 +70,10 @@ h2{text-align: center;}
 .hero-ph{
     width: 100%;
 }
+.herodiv{
+    display: block;
+
+}
 
 .weathersummary{
     position: absolute;
