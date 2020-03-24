@@ -94,14 +94,9 @@ h2{text-align: center;}
 }
 .article{
     background-color: silver;
-    display: flex;
+
 }
-.artticle img{
-    float: left;
-}
-.article h2,h4{
-    text-align: right;
-}
+
 /*----------- FOOTER --------------*/
 footer p{
     text-align:center;

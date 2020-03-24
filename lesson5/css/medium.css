@@ -24,7 +24,10 @@
    nav ul.hide{display: block;}
   
 /*----------- MAIN --------------*/
-
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /*----------- FOOTER --------------*/
