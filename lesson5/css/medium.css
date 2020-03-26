@@ -24,6 +24,10 @@
    nav ul.hide{display: block;}
   
 /*----------- MAIN --------------*/
+.hero-ph img{
+   width: auto;
+
+}
 #town{
     float: right;
  }
