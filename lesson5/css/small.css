@@ -91,11 +91,11 @@ h2{text-align: center;}
     color:white;
 }
 .contact{
-    background-color: silver;
+    background-color:rgba(0,0,0,.1);
     margin-top:  15px;
 }
 .article{
-    background-color: silver;
+    background-color:rgba(0,0,0,.1);
 
 }
 .contact iframe{
