@@ -3,10 +3,6 @@ fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
-  fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
   .then(function (jsonObject) {
     console.table(jsonObject);  
     const prophets = jsonObject['prophets'];
