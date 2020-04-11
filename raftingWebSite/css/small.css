@@ -79,17 +79,15 @@ h2{
 .info img{
     width: 500px;
 }
-/*.img1{
-    float: left;
-}
-.img2{
-    float: right;
-    margin-top: 3px;
-}
 .img3{
-    float: right;
-    margin-top: 90px;
-}*/
+    width: 300px;
+}
+.img4{
+    width: 300px;
+}
+.img5{
+    width: 300px;
+}
 .info,.activity{
     width: 100%;
     
