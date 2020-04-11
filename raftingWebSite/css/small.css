@@ -1,0 +1,192 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body{
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+   
+}
+/*----------- HEADER --------------*/
+#cabeçalho{
+    display: flex;
+    background-image: url(../images/small.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 200px;
+}
+#cabeçalho img{
+ 
+    margin-left: 45%;
+    margin-top: 10px;
+    /*float: left;*/
+    position: absolute;
+}
+#cabeçalho nav{
+   
+    margin-left: 60px;
+}
+/*----------- NAVIGATION --------------*/
+nav ul{
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: -80px;
+    
+}
+ul li a{
+    margin-right: 0px;
+    display: block;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: black;
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, .1);
+    padding: 5px;
+}
+nav ul.hide{display: none;}
+nav button {
+    display: block;
+    width: 40px;
+    margin-top: 170px;
+    margin-left: -80px;
+    float: right;
+    position: relative;
+}
+/*----------- MAIN -----------------*/
+
+#banner img{
+    width: 100%;
+}
+/*----------- SECTION --------------*/
+h2{
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+}
+.info img{
+    width: 500px;
+}
+/*.img1{
+    float: left;
+}
+.img2{
+    float: right;
+    margin-top: 3px;
+}
+.img3{
+    float: right;
+    margin-top: 90px;
+}*/
+.info,.activity{
+    width: 100%;
+    
+}
+.fix{
+    clear: left;
+}
+.weather{
+    width: 300px;
+    margin: auto;
+    background-color: rgba(127,255,0,.1);
+    border-radius: 10px;
+}
+.weather p{
+    margin-left: 110px;
+}
+.weather img{
+    width: 70px;
+    height: 70px;
+    margin-left: 110px;
+}
+h1{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+}
+/*-----table----*/
+#tabela{
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1000px;
+}
+#tabela td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+caption{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 36px;
+}
+.title{
+    background-color: rgb(190, 190, 190, .8);
+}
+.t1{
+    background-color: rgba(135, 206, 250, .2);
+}
+.guides h3{
+    font-family: 'Permanent Marker', cursive;
+}
+.guides h3{
+    font-family: 'Baloo Da 2', cursive;
+}
+/*-----contact-----*/
+.address{
+    width: 300px;
+    margin: auto;
+}
+address p{
+    margin-left: 10px;
+    position: absolute;
+}
+#btn{
+    border-radius: 10px;
+    background-color:rgba(255, 185, 15, .7) ;
+    font-family: ;
+    color: white;
+    width: 70px;
+}
+/*----------- FOOTER --------------*/
+footer{
+    margin-top: 10px;
+    height: 80px;
+    border-top: 2px solid gray;
+    background-color: rgba(139, 137,137,.1);
+}
+footer p{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    clear: both;
+    width: 110px;
+    margin: auto; 
+}
+#footer img{
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 20px;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

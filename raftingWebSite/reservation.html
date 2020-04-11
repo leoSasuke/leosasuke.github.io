@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Bhaina+2:wght@600&family=Baloo+Da+2&family=Comic+Neue:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/time.js"></script>
+    <title>Salmon River Adventures</title>
+</head>
+<body>
+    <header id="cabeçalho">
+        <img src="images/Rafting_logo.png" alt="logo">  
+        <nav id="phone">
+            <button onclick="toggleMenu()">&#9776</button>
+            <ul id="prinav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="riverguide.html">River Guide</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li class="active"><a href="reservation.html">reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table id="tabela">
+        <caption>Activity Information</caption>
+        <tr class="title"><td></td><td>Length</td><td>Skill level</td><td>Cost</td><td>Services</td></tr>
+        <tr class="t1"><td rowspan="2">KAYAK</td><td>1H</td><td>junior</td><td>$U300,00</td><td>food/equipament rent</td></tr>
+        <tr><td>2h</td><td>senior</td><td>$U600,00</td><td>food/equipament rent</td></tr>
+        <tr class="t1"><td rowspan="2">RAFTING</td><td>1H</td><td>junior</td><td>$U600,00</td><td>food/equipament rent</td></tr>
+        <tr><td>2h</td><td>Senior</td><td>$U1000,00</td><td>food/equipament rent</td></tr>
+        <tr class="t1"><td rowspan="2">HIKE</td><td>45min</td><td>junior</td><td>$U150,00</td><td>food</td></tr>
+        <tr><td>1h</td><td>Senior</td><td>$U250,00</td><td>food</td></tr>
+    </table>
+    <section class="contact">
+        <form name="form" method="GET">
+            <fieldset>
+                <legend>Make your reservation</legend>
+                <label for="text">Name:</label>
+                <input type="text" name="Name" id="text" size="30" placeholder="type your name here" maxlength="20" pattern="[A- -Za-z]{6,}" autofocus required><br><br>
+                <label for="tEmail">Email: </label>
+                <input type="email" name="Email" id="tEmail" size="20" placeholder="type your email here" maxlength="20"pattern="[A- -Za-z]{6,}" autofocus required><br><br>
+                <label for="tphone">Phone: </label>
+                <input type="text" name="phone" id="tphone" size="15" placeholder="55867954" maxlength="20" autofocus required><br><br>
+                <label for="selAdv">Select adventure: </label>
+                <select name="selAd" id="selAdv">
+                    <option>Select</option>
+                    <option>kayak</option>
+                    <option>Rafting</option>
+                    <option>Hike</option>
+                </select><br><br>
+                <textarea name="comment" id="comment" placeholder="Your comment..." cols="30" rows="10"></textarea><br><br>
+                <input id="btn" type="submit" value="OK" formaction="ok.html">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <div id="footer">
+            <img src="images/facebook.png" alt="faceLogo">
+            <img src="images/instagram.png" alt="instLogo">
+            <img src="images/watsapp.png" alt="wats">
+            <img src="images/youtube.png" alt="tube">
+        </div>
+        <p id="end"> Salmon River Adventure  &copy; 2020 Leonardo Cavachini | <span id="Date"></span></p>
+    </footer>
+</body>
+</html>

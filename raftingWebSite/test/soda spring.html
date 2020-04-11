@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Preston City, BYU Idaho, Lesson 4, Leonardo Cavachini">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|IBM+Plex+Serif|Kalam|Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/update.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/sodaSpring.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Preston Town</title>
+</head>
+<body>
+    <div id="message">Saturday = Soda Springs Pancakes in the Park!  9:00 a.m. <br>Saturday at the city park pavilion." </div>
+    <header class="clearfix">
+        <img src="images/logo_beach.png" alt="logo">
+        <h1>My Beach Funny</h1>
+        <h2>Let's go to Beach!!</h2>
+    </header>
+    <div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="prinav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Preston</a></li>
+            <li class="active"><a href="soda spring.html">Sada Spring</a></li>
+            <li><a href="fish haven.html">Fish Haven</a></li>
+            <li><a href="storm center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main class="clearfix">
+     <h1>Soda Springs</h1>
+     <div class="herodiv">
+        <picture class="myphoto"> 
+            <source media="(max-width: 500px)" srcset="./images/cit230_small.jpg">
+            <source media="(max-width: 960px)" srcset="./images/cit230_medium.jpg">
+            <source media="(max-width: 1280px)" srcset="./images/cit230_large.jpg">
+            <img src="images/cit230_large.jpg" alt="hero img">
+        </picture>
+        <section class="weathersummary">
+         <h3>Weather Summary</h3>
+         <p>Currently: <span id="sky"></span></p>
+         <p>High: <span id="temp">48</span> &deg;F</p>
+         <p>Wind Chill: <span id="chill">48</span> &deg;F</p>
+         <p>Humidity:<span id="hum"></span>%</p>
+         <p>wind Speed: <span id="speed">5</span> mph</p>
+     </section>
+     
+        <section class="forecastinfo">
+            <h2><span id="townName">town</span> 5-Day Forecast</h2>
+            <div id="weatherforecast"></div>
+        </section>
+        <section class="townEvents">
+            <h2>Upcoming Events</h2>
+            <p><span id="um">abril</span></p>
+            <p><span id="dois">maio</span></p>
+            <p><span id="tres">junho</span></p>
+        </section>
+         <div class="article">
+            <img id="town" src="images/sodacity+.png" alt="city">
+            <h4>Something about Soda Springs</h4>
+                      
+            <p>&nbsp;Soda Springs has a rich history starting when the Pioneers headed west for California and Oregon. Due to the abundance of springs and water in the area, Soda Springs became known as the "Oregon Trail Oasis." The famous Steam Boat Springs and Hooper Springs, which was originally called "Beer Springs,"  were some of the main sites to be seen by the earlier settlers and travelers as well as the many sulfurous springs that many pioneers journaled about the smell coming from the them.</p><p>&nbsp; The City later became further famous in 1937 when a well was being drilled in search of hot water for a bath house that unleashed what is known as the Geyser, which is the only captive Geyser in the world.</p>
+         </div>
+         <div class="contact">
+            <div class="info">
+                <h2>Contact Us</h2>
+                <p><img src="images/endereço.jpg" alt="addres">
+                Weather Center<br>ID832263 CenterStreet<br></p>
+                <p><img src="images/telefone.png" alt="phone">
+                (+55)41 8885 9597</p>
+                <p><img src="images/email.png" alt="email">
+                weathercont@yoururl.com</p>
+                <img src="images/facebook-icone-icon.png" alt="face"><img src="images/pinterest1.png" alt="pint"><img src="images/twitter.png" alt="twitter"><img src="images/WhatsApp-icone.png" alt="whats">       
+             </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.960646354484!2d-111.62379157053284!3d42.66140751678423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1584838110073!5m2!1spt-BR!2sbr" width="290" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            </div>
+            
+         </div>
+    </main>
+    <div id="footerWrapper">
+    <footer class="clearfix">
+        <p>&copy; 2020 &bull; The weather Site &bull;Attributions&bull;Leonardo Cavachini <span id="currentDate"></span></p>
+    </footer>
+   <script>
+     const today=new Date();
+     console.log(today);
+
+     const dayNumber=today.getDay();
+     console.log(dayNumber);
+
+     let element = document.getElementById("message");
+
+     if(dayNumber == 5){
+     element.classList.add("showme");
+     }else{
+     element.classList.add("hideme");
+      }
+   </script>
+</div>
+ <script src="js/windchill.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
