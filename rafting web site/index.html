@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Bhaina+2:wght@600&family=Baloo+Da+2:wght@400;800&family=Comic+Neue:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/time.js"></script>
+    <title>Salmon River Adventures</title>
+</head>
+<body>
+    <header id="cabeçalho">
+        <img src="images/Rafting_logo.png" alt="logo">  
+        <nav id="phone">
+            <button onclick="toggleMenu()">&#9776</button>
+            <ul id="prinav" class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="riverguide.html">RiverGuide</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="reservation.html">reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="info">
+            <div class="weather">
+                <h2>Current weather from Riggins,ID</h2>
+                <p><span id="desc"></span></p>
+                <p><span id="temp"></span>&deg;F</p>
+            </div>
+            <h2>Some information about us</h2>
+            <picture class="img1">
+                <img src="images/kaique.jpg" alt="kaique">
+            </picture>
+            <p class="pOne"> &nbsp;Rafting is a practice of descent in rapids in the team that uses inflatable boats and safety equipment.
+                During the tracking or interaction group in the midst of nature, encountering challenges that provide the same agreement with the team spirit.
+                Commercial rafting provides the experience of going down the river for people of any age and most people who have never had a previous experience,
+                using accessible sport. 
+            </p>
+            <picture class="img2">
+                <img src="https://images.rove.me/w_740,q_85/g8bcne1vvqzaaccxnn60/spain-white-water-rafting.jpg" alt="rafting">
+            </picture>
+            <p class="fix">&nbsp;Our guides have professional experiences from 2 to 13 years, where they experience various types of practitioners,
+                from children from 3 years of age to adolescents of 85 years, with 4 generations of the same family.
+                Providing enjoyable activities for the family and radical activities for the more adventurous.<br>
+                Interested, call <strong>55258-956</strong> or send an email to <strong>solmonriver@adven.fun</strong>
+            </p>
+        </div>
+        <div class="activity">
+            <picture class="img3">
+                <img src="images/caiaque_natu.jpg" alt="kaiak">
+            </picture>
+            <p class="p2">&nbsp;&nbsp;We have a skilled team of instructors who are highly qualified to carry out the kayaking activity,
+                our instructors are trained to serve all types of people, from the most experienced to the beginner.</p>
+            <picture class="img4">
+                <img src="images/rafting.jpg" alt="raft">
+            </picture>
+            <p class="p3">&nbsp;we have a variety of sizes of rafts. Rafting is an enjoyable, relaxing, safe means of floating. Small children, the handicapped, 
+                and senior citizens are among the many that are getting into floating. Rafts are excellent for the individual family, large groups or company picnics.
+                We have 6-man, 8-man, 10-man, and 12-man Rafts.</p>
+            <picture class="img5">
+                <img src="images/take a hike.jpg" alt="hike">
+            </picture>
+            <p class="p4">&nbsp;If you or your group like to appreciate the smallest details of nature, the hike is the perfect tour for you and your family, 
+                as we have a team prepared to provide a contact with nature that you never imagined having.</p>
+        </div>
+        <table id="tabela">
+            <caption>Activity Information</caption>
+            <tr class="title"><td></td><td>Length</td><td>Skill level</td><td>Cost</td><td>Services</td></tr>
+            <tr class="t1"><td rowspan="2">KAYAK</td><td>1H</td><td>junior</td><td>$U300,00</td><td>food/equipament rent</td></tr>
+            <tr><td>2h</td><td>senior</td><td>$U600,00</td><td>food/equipament rent</td></tr>
+            <tr class="t1"><td rowspan="2">RAFTING</td><td>1H</td><td>junior</td><td>$U600,00</td><td>food/equipament rent</td></tr>
+            <tr><td>2h</td><td>Senior</td><td>$U1000,00</td><td>food/equipament rent</td></tr>
+            <tr class="t1"><td rowspan="2">HIKE</td><td>45min</td><td>junior</td><td>$U150,00</td><td>food</td></tr>
+            <tr><td>1h</td><td>Senior</td><td>$U250,00</td><td>food</td></tr>
+
+        </table>
+    </section>
+    <footer>
+        <div id="footer">
+            <img src="images/facebook.png" alt="faceLogo">
+            <img src="images/instagram.png" alt="instLogo">
+            <img src="images/watsapp.png" alt="wats">
+            <img src="images/youtube.png" alt="tube">
+        </div>
+        <p id="end"> Salmon River Adventure  &copy; 2020 Leonardo Cavachini | <span id="Date"></span></p>
+    </footer>
+</body>
+</html>

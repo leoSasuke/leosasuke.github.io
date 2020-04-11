@@ -1,0 +1,29 @@
+ #cabeçalho{
+      display: flex;
+      padding: 5px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 960px;
+      margin: auto;
+  }
+  #cabeçalho img{
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+  header nav{    
+    margin-left: 60px;
+  }   
+    /*----------- NAVIGATION --------------*/
+    nav button {
+      display: none;
+      margin-top: 0;
+    } 
+    nav ul{
+      margin-top: 0;
+    }
+    nav ul.hide{display: block;}
+
+    ul li{
+      display: inline-block;
+    }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Preston City, BYU Idaho, Lesson 4, Leonardo Cavachini">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|IBM+Plex+Serif|Kalam|Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/update.js"></script>
+    <script src="js/lazy.js"></script>
+    <script src="js/toggle.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Preston Town</title>
+</head>
+<body>
+    <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. <br>Saturday at the city park pavilion." </div>
+    <header class="clearfix">
+        <img src="images/logo_beach.png" alt="logo">
+        <h1>My Beach Funny</h1>
+        <h2>Let's go to Beach!!</h2>
+    </header>
+    <div id="navWrapper">
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="prinav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="index.html">Preston</a></li>
+            <li><a href="soda spring.html">Sada Spring</a></li>
+            <li><a href="fish haven.html">Fish Haven</a></li>
+            <li><a href="storm center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main class="clearfix">
+     <div class="thanks">
+        <p>My Beach Funny Wants To Say Thanks!</p> 
+        <p>Thank you for submitting your form and helping us develop our system to serve you better.</p>
+        </div>
+    </main>
+    <div id="footerWrapper">
+    <footer class="clearfix">
+        <p>&copy; 2020 &bull; The weather Site &bull;Attributions&bull;Leonardo Cavachini <span id="currentDate"></span></p>
+    </footer>
+    <script>
+        const today=new Date();
+        console.log(today);
+   
+        const dayNumber=today.getDay();
+        console.log(dayNumber);
+   
+        let element = document.getElementById("message");
+   
+        if(dayNumber == 5){
+        element.classList.add("showme");
+        }else{
+        element.classList.add("hideme");
+         }
+      </script>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+</html>
