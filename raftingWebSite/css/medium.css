@@ -94,11 +94,11 @@
       background-color: rgb(50,205,50,.2 );
     }
     .pOne{
-      margin-left:430px;
+      margin-left:460px;
       margin-top: 50px;
       width: 500px;
       text-align: justify;
-      border-radius: 5px;
+      border-radius: 10px;
       background-color: rgba(34,139,34,.1 ); 
     }
     .p2{
