@@ -188,6 +188,7 @@ footer p{
     margin-left: 5px;
     margin-top: 10px;
     width: 10px;
+    height: 10px;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
