@@ -187,8 +187,8 @@ footer p{
     flex-direction: row;
     margin-left: 5px;
     margin-top: 10px;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
