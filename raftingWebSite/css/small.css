@@ -79,8 +79,14 @@ h2{
 .info img{
     width: 500px;
 }
+.info p{
+    margin-left: 5px;
+}
+.activity p{
+    margin-left: 5px;
+}
 .img3 img{
-    width: 300px;
+    width: 200px;
 }
 .img4{
     width: 300px;
