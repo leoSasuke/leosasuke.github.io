@@ -100,6 +100,7 @@
       text-align: justify;
       border-radius: 10px;
       background-color: rgba(34,139,34,.1 ); 
+      float: right;
     }
     .p2{
       width: 300px;
