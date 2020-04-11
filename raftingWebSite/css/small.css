@@ -79,13 +79,13 @@ h2{
 .info img{
     width: 500px;
 }
-.info p{
+.info .pOne,.fix{
     margin-left: 5px;
 }
-.activity p{
+.activity .p2,.p3,.p4{
     margin-left: 5px;
 }
-.img3 img{
+picture .img2{
     width: 200px;
 }
 .img4{
