@@ -5,7 +5,7 @@ import {
     Route,
     s
   } from "react-router-dom";
-import PagesPromotionSearch from './Promotion/Search/Search';
+import PagesPromotionSearch from '/Promotion/Search/Search';
 
 const Root = ()=>{
       return (
