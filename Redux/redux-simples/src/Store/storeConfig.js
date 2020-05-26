@@ -1,4 +1,4 @@
-import { createStore, combineReducers } from 'redux'
+import { createStore, combineReducers } from './node_modules/redux'
 
 import numerosReducer from './reducers/numeros'
 
