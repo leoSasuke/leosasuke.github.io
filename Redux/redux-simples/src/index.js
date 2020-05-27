@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import { Provider } from 'react-redux'
-import configStore from './store/storeConfig'
+import { Provider } from 'react-redux'//ler react e redux
+import configStore from './store/storeConfig'//func do redux
 
-const store = configStore()
+const store = configStore() //integração react Rdux.
 
 ReactDOM.render(
   <Provider store={store}>

@@ -1,12 +1,13 @@
 import "./Intervalo.css";
 import React from "react";
-import { connect } from "react-redux";
+import {connect} from 'react-redux'
 
 import Card from "./Card";
-import { alterarNumeroMinimo, alterarNumeroMaximo } from "../store/actions/numeros";
+import {alterarNumeroMinimo, alterarNumeroMaximo} from '../store/actions/numeros'
 
-function Intervalo(props) {
-  const { min, max } = props;
+
+function Intervalo (props) {  
+  const {min, max} =props
   
   return (
     <Card title="Intervalo de Números" red>
@@ -14,41 +15,41 @@ function Intervalo(props) {
         <span>
           <strong>Mínino:</strong>
           <input type="number" value={min} 
-            onChange={e => props.alterarMinimo(+e.target.value)} />
+          onChange={e => props.alterarMinimo(+e.target.value)}/>
+            
         </span>
         <span>
           <strong>Máximo:</strong>
-          <input type="number" value={max}
-            onChange={e => props.alterarMaximo(+e.target.value)} />
+          <input type="number" value={max} 
+          onChange={e => props.alterarMaximo(+e.target.value)}/>
         </span>
       </div>
     </Card>
   );
 }
-
-function mapStateToProps(state) {
+function mapStateToProp(state) {
   return {
     min: state.numeros.min,
     max: state.numeros.max,
   };
 }
-
-function mapDispatchToProp(dispatch) {
+function mapDispatchToProp(dispacth) {
   return {
-    alterarMinimo(novoNumero) {
-      // action creator -> action
-      const action = alterarNumeroMinimo(novoNumero);
-      dispatch(action);
-    },
-    alterarMaximo(novoNumero) {
-      // action creator -> action
-      const action = alterarNumeroMaximo(novoNumero);
-      dispatch(action);
-    },
-  };
+   alterarMinimo(novoNumero){
+     //actionCreator -> action
+      const action = alterarNumeroMinimo(novoNumero)
+      dispacth(action)
+   },
+   alterarMaximo(novoNumero){
+     //actionCreator -> action
+      const action = alterarNumeroMaximo(novoNumero)
+      dispacth(action)
+   }
+  }
 }
 
+
 export default connect(
-    mapStateToProps,
-    mapDispatchToProp
-)(Intervalo);
+  mapStateToProp,
+  mapDispatchToProp)
+  (Intervalo);

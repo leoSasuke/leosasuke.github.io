@@ -4,14 +4,15 @@ import { connect } from 'react-redux'
 import Card from "./Card";
 
 function Sorteio(props) {
-  const { min, max } = props;
-  const aleatorio = parseInt(Math.random() * (max - min)) + min;
+  const {min, max} =props
+  console.log(props.min)
+  console.log(props.max)
   return (
     <Card title="Sorteio de um Números" purple>
       <div>
         <span>
           <span>Resultado: </span>
-          <strong>{aleatorio}</strong>
+          <strong>{Math.floor(Math.random()*(max-min))+min}</strong>
         </span>
       </div>
     </Card>
