@@ -20,7 +20,7 @@
     "pm2": "^2.1.5"
   },
   "devDependencies": {
-    "mongoose": "^4.13.19",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.11.0"
   }
 }
