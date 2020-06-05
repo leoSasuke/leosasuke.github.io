@@ -6,6 +6,8 @@ import api from '../../services/api'
 import axios from 'axios';
 import {LeafletMouseEvent} from 'leaflet'
 
+import Dropzone from '../../components/dopzone'
+
 import './style.css';
 import logo from '../../assets/logo.svg'
 //aaray ou obj:manualmente informar o tipo da variavel
@@ -35,6 +37,7 @@ const CreatePoint = () => {
     const [selectedCity, setSelectedCity] = useState('0');
     const [selectedItems,setSelectedItems] = useState<number[]>([]);
     const [selectedPosition,setSelectedPosition] = useState<[number,number]>([0,0]);
+    const [selectedFile, setSelectedFile] = useState<File>();
     const history = useHistory();
 
 
@@ -134,6 +137,9 @@ const CreatePoint = () => {
     </header>
      <form onSubmit={handleSubmit}>
       <h1>Cadastro do <br/> ponto de coleta</h1>
+
+        <Dropzone onFileUploaded={setSelectedFile}/>
+
       <fieldset>
         <legend>
          <h2>Dados</h2>
